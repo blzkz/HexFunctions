@@ -1,0 +1,12 @@
+<appian-plugin name="hexFunctions" key="com.blzkz.hex">
+  <plugin-info>
+    <description>Appian functions that allows convert text to hexadecimal</description>
+    <vendor name="blzkz" url="http://www.blzkz.es" />
+    <version>1.0.2</version>
+    <application-version min="17.3" />
+  </plugin-info>
+ 
+  <function-category key="hexFunctionsCategory" name="HexFunctions" />
+  <function key="text2hex" class="com.blzkz.hex.hexFunctions" />
+
+</appian-plugin>
